@@ -1,0 +1,1 @@
+sqlcmd -S STEWFOHLO\ -i C:\Users\sfohlo\Documents\SBSA\ClearView\src\deltas.sql -o C:\Users\sfohlo\Documents\SBSA\ClearView\src\deltas_output.csv

@@ -1,0 +1,1 @@
+sqlcmd -S . -d ClearView_Automation -E -s, -W -Q "SELECT * FROM [ClearView_Automation].[dbo].[Deltas_upload]" | findstr /V /C:"-" /C:"(" /B > C:\Users\sfohlo\Documents\SBSA\ClearView\src\cv_upload_file.csv

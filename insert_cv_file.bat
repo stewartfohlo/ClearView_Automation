@@ -1,0 +1,1 @@
+sqlcmd -S STEWFOHLO\ -i C:\Users\sfohlo\Documents\SBSA\ClearView\src\insert_cv_file.sql -o C:\Users\sfohlo\Documents\SBSA\ClearView\src\insert_cv_output.csv
